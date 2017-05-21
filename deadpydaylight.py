@@ -5,7 +5,7 @@ width, height = pyautogui.size()
 
 def main():
 	if width != 1920 and height !=1080:
-		print "Invalid resolution. Only 1080p currently supported. "
+		print("Invalid resolution. Only 1080p currently supported. ")
 		return
 	killerSlash = (1354,986)
 	red = (240,0,0)
